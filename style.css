@@ -3,7 +3,8 @@
     padding: 0;
 }
 body {
-    background-color: black;
+    overflow-x: hidden;
+    background-color: orange;
 }
 nav {
     display: flex;
@@ -11,42 +12,74 @@ nav {
 }
 input {
     font-size: 20px;
-    margin-left: 1000px;
-    margin-top: 4px;
+    margin-left: 500px;
+    margin-top: 6px;
     border-radius: 6px;
 }   
 .perpus {
-    font-size: 30px;
+    font-family: Asap Condensed;
+    font-size: 33px;
     margin-left: 20px;
 }
 img {
+    justify-content: space-evenly;
     margin-top: 10px;
 }
 .naruto {
-    margin-top: 45px;
-    margin-left: 400px;
-    width: 300px;
+    margin-top: 15px;
+    width: 250px;
 }
 .nrt {
-    font-size: 50px;
-    margin-left: 400px;
-    color: orange;
+  font-size: 40px;
+  font-family: Black Ops One;
+}
+.Mk {
+  font-size: 26px;
+  font-family: Asap Condensed;
 }
 .one-piece {
-    width: 300px;
-    margin-left: 850px;
+    width: 250px;
+    margin-top: 15px;
 }   
-.op {
-    font-size: 50px;
-    margin-left: 850px;
-    color: yellow;
-}
 .demon {
-    margin-left: 400px;
-    width: 300px;
+    width: 250px;
+}
+.jujutsu {
+  width: 250px;
+}
+table {
+  border-spacing: 10px;
+}
+td {
+  border: 4px solid white;
+}
+.op {
+  font-size: 40px;
+  font-family: Asap Condensed;
+}
+.eo {
+  font-size: 30px;
+  font-family: Asap Condensed;
 }
 .dmn {
-    color: rgb(13, 153, 0);
-    font-size: 50px;
-    margin-left: 400px;
+  font-size: 30px;
+  font-family: Patrick Hand;
+}
+.kg {
+  font-size: 25px;
+  font-family: Asap Condensed;
+}
+.jjk {
+  font-size: 35px;
+  font-family: Big Shoulders Stencil Display;
+}
+.Ga {
+  font-size: 32px;
+  font-family: Asap Condensed;
+}
+.daftar {
+  font-family: Patrick Hand;
+  margin-left: 10px;
+  font-size: 30px;
+  -webkit-text-stroke: 0.7px white;
 }
