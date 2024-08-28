@@ -198,8 +198,8 @@ input {
   font-size: 15px;
 }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1200px) {
 input {
-        margin-left: 1100px;
+        margin-left: 1000px;
 }
 }    
