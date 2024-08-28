@@ -71,7 +71,32 @@
         <td class="jjk">Jujutsu Kaisen</td>
         <td class="Ga">Gege Akutami</td>
       </tr>
+      <tr>
+        <td class="5">5</td>
+        <td><img  class="code" src="code.jpg" alt="code geass">
+        <br>
+        <a href="#">Baca</a>
+        </td>
+        <td class="cg">Code Geass</td>
+        <td class="IO">Ichirō Ōkouchi</td>
+      </tr>
     </tbody>
     </table>
+    <script>
+      const filter = document.getElementById("pencarian");
+      const items = document.querySelectorAll("tbody tr");
+      
+      filter.addEventListener("input", (e) => filterData(e.target.value));
+      
+      function filterData(search) {
+        items.forEach((item) => {
+          if (item.innerText.toLowerCase().includes(search.toLowerCase())) {
+            item.classList.remove("none");
+          } else {
+            item.classList.add("none");
+          }
+        });
+      }
+    </script>
 </body>
 </html>
