@@ -25,6 +25,10 @@ input {
     font-family: Asap Condensed;
     font-size: 33px;
     margin-left: 20px;
+    background-image: linear-gradient(to bottom, rgb(156, 156, 156), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.6px;
 }
 img {
     justify-content: space-evenly;
@@ -88,7 +92,10 @@ td {
   font-family: 'Times New Roman', Times, serif;
   margin-left: 10px;
   font-size: 23px;
-  -webkit-text-stroke: 0.5px white;
+  background-image: linear-gradient(to bottom, black, rgb(77, 77, 77));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.2px #ffffff;
 }
 tbody tr.none {
   display: none;
@@ -132,12 +139,12 @@ thead tr td {
 }
 @media only screen and (max-width: 768px) {
 .perpus {
-  font-size: 20px;
+  font-size: 30px;
   margin-left: 5px;
   text-align: center;
 }
 input {
-  margin-top: 2px;
+  margin-top: 5px;
   margin-left: 150px;
   padding-right: 0;
   padding-left: 0;
