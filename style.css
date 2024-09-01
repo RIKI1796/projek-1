@@ -4,11 +4,12 @@
 }
 body {
     overflow-x: hidden;
-    background-color: orange;
+    background-image: url(bg.jpg);
+    backdrop-filter: blur(4px);
 }
 nav {
     display: flex;
-    background-color: yellow;
+    background-color: #84848481;
 }
 input {
     border-color: red;
@@ -39,13 +40,17 @@ img {
     width: 250px;
 }
 .nrt {
+  color: #a6a6a6;
   font-size: 35px;
   font-family: Black Ops One;
   text-align: center;
+  -webkit-text-stroke: 0.8px white;
 }
 .Mk {
+  color: #a6a6a6;
   font-size: 26px;
   font-family: Asap Condensed;
+  -webkit-text-stroke: 0.2px white;
 }
 .one-piece {
     width: 250px;
@@ -64,38 +69,51 @@ td {
   border: 2px solid white;
 }
 .op {
+  color: #a6a6a6;
   font-size: 35px;
   font-family: Asap Condensed;
   text-align: center;
+  -webkit-text-stroke: 0.2px white;
 }
 .eo {
+  color: #a6a6a6;
   font-size: 30px;
   font-family: Asap Condensed;
+  -webkit-text-stroke: 0.4px white;
 }
 .dmn {
+  color: #a6a6a6;
   font-size: 30px;
   font-family: Patrick Hand;
+  -webkit-text-stroke: 0.3px white;
 }
 .kg {
+  color: #a6a6a6;
   font-size: 22px;
   font-family: Asap Condensed;
+  -webkit-text-stroke: 0.2px white;
 }
 .jjk {
+  color: #a6a6a6;
   font-size: 33px;
   font-family: Big Shoulders Stencil Display;
+  -webkit-text-stroke: 0.2px white;
 }
 .Ga {
+  color: #a6a6a6;
   font-size: 27px;
   font-family: Asap Condensed;
+  -webkit-text-stroke: 0.2px white;
 }
 .daftar {
   font-family: 'Times New Roman', Times, serif;
   margin-left: 10px;
-  font-size: 23px;
-  background-image: linear-gradient(to bottom, black, rgb(77, 77, 77));
+  font-size: 150%;
+  background-image: linear-gradient(to bottom, white, #141414);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.2px #ffffff;
+  -webkit-text-stroke: 0.3px #a7a7a7;
+  margin-top: 30px;
 }
 tbody tr.none {
   display: none;
@@ -118,6 +136,7 @@ tbody tr td:nth-child(4) {
 }
 tbody tr td:nth-child(1) {
   text-align: center;
+  color: #a6a6a6;
 }
 tbody tr td:nth-child(3) {
   text-align: center;
@@ -126,14 +145,20 @@ tbody tr td:nth-child(3) {
   width: 250px;
 }
 .wb {
+    color: #a6a6a6;
     font-family: Patrick Hand;
     font-size: 28px;
+    -webkit-text-stroke: 0.2px white;
 }
 .Yj {
+  color: #a6a6a6;
   font-family: Asap Condensed;
   font-size: 25px;
+  -webkit-text-stroke: 0.2px white;
 }
 thead tr td {
+  color: rgb(77, 77, 77);
+  -webkit-text-stroke: 0.3px white;
   font-family: monospace;
   font-size: 15px;
 }
@@ -145,10 +170,10 @@ thead tr td {
 }
 input {
   margin-top: 6%;
-  margin-left: 90%;
+  margin-left: 85%;
   padding-right: 0;
   padding-left: 0;
-  font-size: 85%;
+  font-size: 95%;
 }
 .naruto {
   width: 150px;
@@ -221,6 +246,7 @@ input {
 .perpus {
   transform: translateY(-140%);
   opacity: 0;
+  filter: blur(3px);
   animation: Show 0.8s 0.3s linear 1 forwards;
   animation-delay: 0.5s;
 }
