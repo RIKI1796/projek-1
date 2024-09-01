@@ -145,7 +145,7 @@ thead tr td {
 }
 input {
   margin-top: 5px;
-  margin-left: 150px;
+  margin-left: 100%;
   padding-right: 0;
   padding-left: 0;
   font-size: 100%;
