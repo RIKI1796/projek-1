@@ -12,7 +12,7 @@ nav {
     background-color: #84848481;
 }
 input {
-    border-color: red;
+    border-color: black;
     background-color: #dbdbdb;
     -webkit-text-fill-color: #777777;
     font-size: 130%;
@@ -36,7 +36,6 @@ img {
     margin-top: 10px;
 }
 .naruto {
-    margin-top: 15px;
     width: 250px;
 }
 .nrt {
@@ -61,9 +60,6 @@ img {
 }
 .jujutsu {
   width: 250px;
-}
-table {
-  border-spacing: 10px;
 }
 td {
   border: 2px solid white;
@@ -118,6 +114,12 @@ td {
 tbody tr.none {
   display: none;
 }
+tbody tr {
+  background-color: #606060c7;
+}
+thead td {
+  background-color: #2a2a2ad0;
+}
 a {
   color: white;
   background-color: blue;
@@ -162,7 +164,7 @@ thead tr td {
   font-family: monospace;
   font-size: 15px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
 .perpus {
   font-size: 30px;
   margin-left: 5px;
