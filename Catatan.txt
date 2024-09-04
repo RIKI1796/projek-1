@@ -1,0 +1,157 @@
+              Rumus Rumus Excel
+
+      
+      1. VLOOKUP
+      Rumus Excel ini dapat digunakan untuk mencari nilai di kolom paling kiri tabel dan mengembalikan nilai terkait dari kolom tertentu. Contoh: =VLOOKUP(A2, B2:C10, 2, FALSE)
+      
+      2. SUM
+      Rumus Excel ini digunakan untuk menjumlahkan angka pada sel tertentu. Contoh: =SUM (A1:A10)
+      
+      3. IF
+      Rumus Excel ini digunakan untuk melakukan pengujian bersyarat dan mengembalikan nilai berbeda berdasarkan hasilnya. Contoh: =IF(A1>10, "Tinggi", "Rendah")
+      
+      4. COUNT
+      Rumus Excel ini berfungsi untuk menghitung jumlah sel dalam rentang yang berisi angka. Contoh: =COUNT(A1:A10)
+      
+      5. AVERAGE
+      Rumus Excel ini digunakan untuk menghitung rata-rata rentang sel berdasarkan baris dan kolom yang dipilih. Contoh: =AVERAGE(A1:A10)
+      
+      6. SUMIF
+      Rumus Excel ini digunakan untuk menjumlahkan data dengan kriteria yang telah ditentukan.
+      
+      Contoh: =SUMIF(A1:A10, ">50")
+      
+      7. INDEX
+      Rumus Excel ini digunakan untuk mengembalikan nilai sel pada baris dan kolom tertentu.
+      
+      Contoh: =INDEX(A1:C10, 5, 2)
+      
+      8. MATCH
+      Rumus Excel ini digunakan untuk menemukan posisi suatu nilai dalam suatu rentang. Contoh: =MATCH(A1, B1:B10, 0)
+      
+      9. CONCATENATE
+      Rumus Excel ini digunakan untuk menggabungkan dua atau lebih string teks menjadi satu. Contoh: =CONCATENATE(A1:B1)
+      
+      10. COUNTIF
+      Rumus Excel ini digunakan untuk menghitung jumlah sel yang memenuhi kondisi tertentu. Contoh: =COUNTIF(A1:A10, ">50")
+      
+      11. IFERROR
+      Rumus Excel ini digunakan untuk memeriksa apakah rumus menghasilkan kesalahan dan mengembalikan nilai tertentu jika benar. Contoh: =IFERROR(A1/B1, "Error")
+      
+      12. LEFT
+      Rumus Excel ini digunakan untuk mengekstrak sejumlah karakter dalam sebuah kata atau angka di bagian sisi kiri. Contoh: =LEFT(A1, 3)
+      
+      13. RIGHT
+      Rumus Excel ini digunakan untuk mengekstrak sejumlah karakter tertentu di bagian sisi kanan. Contoh: =RIGHT(A1, 2)
+      
+      14. MID
+      Rumus Excel ini digunakan untuk mengekstrak sejumlah karakter tertentu di bagian tengah.. Contoh: =MID(A1, 2, 4)
+      
+      15. LEN
+      Rumus Excel ini digunakan untuk menghitung jumlah karakter yang ada dalam satu sel. Jadi, karakter yang dihitung tidak hanya kata, tetapi juga spasi dan tanda baca. Contoh: =LEN(A1)
+      
+      16. DATE
+      Rumus Excel ini digunakan untuk mengembalikan nomor seri pada tanggal tertentu. Contoh: =DATE(2024, 1, 15)
+      
+      17. NOW
+      Rumus Excel ini digunakan untuk mengembalikan tanggal dan waktu saat ini. Contoh: =NOW()
+      
+      18. INDIRECT
+      Rumus Excel ini digunakan untuk mengubah string teks menjadi referensi sel yang valid. Contoh: =INDIRECT("A1")
+      
+      19. TRIM
+      Rumus Excel ini digunakan untuk menghapus spasi awal dan akhir dari string teks. Contoh: =TRIM(A1)
+      
+      20. SUBSTITUTE
+      Rumus Excel ini digunakan untuk mengganti teks tertentu dalam string teks dengan teks baru. Contoh: =SUBSTITUTE(A1, "apel", "oranye")
+      
+      21. RANK
+      Rumus Excel ini digunakan untuk mengembalikan peringkat nomor dalam daftar nomor. Contoh: =PERINGKAT(A1, A1:A10)
+      
+      22. MAX
+      Rumus Excel ini digunakan untuk menemukan nilai maksimum dalam rentang sel. Contoh: =MAX(A1:A10)
+      
+      23. MIN
+      Rumus Excel ini digunakan untuk menemukan nilai minimum dalam rentang sel. Contoh: =MIN(A1:A10)
+      
+      24. ROUND
+      Rumus Excel ini digunakan untuk membulatkan angka ke sejumlah tempat desimal tertentu. Contoh: =ROUND(A1, 2)
+      
+      25. TEXT
+      Rumus Excel ini digunakan untuk mengonversi nilai menjadi teks dalam format tertentu. Contoh: =TEXT(A1, "yyyy-mm-dd")
+      
+      26. RAND
+      Rumus Excel ini digunakan untuk mengembalikan angka acak antara 0 dan 1. Contoh: =RAND()
+      
+      27. IFNA
+      Rumus Excel ini digunakan untuk memeriksa apakah rumus mengembalikan kesalahan #N/A dan mengembalikan nilai yang ditentukan jika benar. Contoh: =IFNA(VLOOKUP(A1, B1:C10, 2, FALSE), "Tidak Ditemukan")
+      
+      28. HLOOKUP
+      Rumus Excel ini berfungsi untuk mengambil data yang disusun secara horizontal.
+      
+      Rumus: =HLOOKUP(sel yang berisi jenis paket;range sel tabel rincian biaya; letak kolom data yang ingin diambil;o)
+      
+      Contoh: =HLOOKUP(A1, A1:D10, 3, SALAH)
+      
+      29. CONCAT
+      Rumus Excel ini digunakan untuk menggabungkan dua atau lebih string teks menjadi satu. Contoh: =CONCAT(A1, " ", B1, " ", C1)
+      
+      30. TODAY
+      Rumus Excel ini digunakan untuk mengembalikan tanggal saat ini. Contoh: =TODAY()
+      
+      31. OR
+      Rumus Excel ini digunakan untuk memeriksa beberapa kondisi dan mengembalikan nilai benar jika ada yang benar. Contoh: =OR(A1>10, B1="Ya")
+      
+      32. AND
+      Rumus Excel ini digunakan untuk memeriksa beberapa kondisi dan mengembalikan nilai benar jika semuanya benar. Contoh: =AND (A1>10, B1="Ya")
+      
+      33. DATEVALUE
+      Rumus Excel ini digunakan untuk mengonversi tanggal dalam format teks menjadi nomor seri. Contoh: =DATEVALUE("2022-03-15")
+      
+      34. ROUNDUP
+      Rumus Excel ini digunakan untuk membulatkan angka hingga sejumlah tempat desimal tertentu. Contoh: =ROUNDUP(A1, 0)
+      
+      35. ROUNDDOWN
+      Rumus Excel ini digunakan untuk membulatkan angka ke bawah hingga sejumlah tempat desimal tertentu. Contoh: =ROUNDDOWN(A1, 0)
+      
+      36. ISNUMBER
+      Rumus Excel ini digunakan untuk memeriksa apakah suatu nilai adalah angka dan mengembalikan nilai benar atau salah. Contoh: =ISNUMBER(A1)
+      
+      37. IFBLANK
+      Rumus Excel ini digunakan untuk memeriksa apakah sel kosong dan mengembalikan nilai tertentu jika benar. Contoh: =IFBLANK(A1, "Kosong")
+      
+      38. PROPER
+      Rumus Excel ini digunakan untuk mengonversi huruf pertama setiap kata dalam string teks menjadi huruf besar. Contoh: =PROPER(A1)
+      
+      39. MEDIAN
+      Rumus Excel ini digunakan untuk menghitung median suatu rentang angka. Contoh: =MEDIAN(A1:A10)
+      
+      40. MODE
+      Rumus Excel ini digunakan untuk mengembalikan nilai yang paling sering muncul dalam rentang angka. Contoh: =MODE(A1:A10)
+      
+      41. DAY
+      Rumus Excel ini digunakan untuk mengekstrak nilai hari dari suatu tanggal. Contoh: =DAY(A1)
+      
+      42. MONTH
+      Rumus Excel ini digunakan untuk mengekstrak nilai bulan dari suatu tanggal. Contoh: =MONTH(A1)
+      
+      43. YEAR
+      Rumus Excel ini digunakan untuk mengekstrak nilai tahun dari suatu tanggal. Contoh: =YEAR (A1)
+      
+      44. PMT
+      Rumus Excel ini digunakan untuk menghitung jumlah pembayaran pinjaman berdasarkan pembayaran konstan dan tingkat bunga konstan. Contoh: =PMT(0,05/12, 60, 10000)
+      
+      45. PRODUCT
+      Rumus Excel ini digunakan untuk mengalikan nilai dalam rentang sel. Contoh: PRODUCT=(A1:A10)
+      
+      46. STDEV
+      Rumus Excel ini digunakan untuk memperkirakan simpangan baku berdasarkan sampel dari suatu populasi. Contoh: =STDEV(A1:A10)
+      
+      47. FIND
+      Rumus Excel ini digunakan untuk menemukan posisi karakter atau teks tertentu dalam string teks. Contoh: =TEMUKAN("a", A1)
+      
+      48. CEILING
+      Rumus Excel ini digunakan untuk membulatkan angka pada kelipatan 10 ke angka atas terdekat. Misalnya, tertulis di C3 sebesar Rp35.599, bila menggunakan rumus ini maka angkat tersebut akan dibulatkan menjadi Rp36.000. Contoh: =CEILING(B2;10)
+      
+      49. FLOOR
+      Rumus Excel ini digunakan untuk membulatkan angka kelipatan 10 ke bawah. Caranya dengan menggunakan rumus FLOOR sama dengan CEILING. Contoh: =FLOOR(C3:10)
