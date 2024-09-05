@@ -164,6 +164,30 @@ thead tr td {
   font-family: monospace;
   font-size: 15px;
 }
+.sl {
+  font-size: 20px;
+  font-family: Patrick Hand;
+  color: #a6a6a6;
+  -webkit-text-stroke: 0.3px white;
+}
+.ch {
+  font-size: 18px;
+  font-family: Asap Condensed;
+  color: #a6a6a6;
+  -webkit-text-stroke: 0.3px white;
+}
+.osk {
+  font-size: 20px;
+  font-family: Patrick Hand;
+  color: #a6a6a6;
+  -webkit-text-stroke: 0.3px white;
+}
+.ak {
+  font-size: 15px;
+  font-family: Asap Condensed;
+  color: #a6a6a6;
+  -webkit-text-stroke: 0.3px white;
+}
 @media only screen and (max-width: 820px) {
 .perpus {
   font-size: 30px;
@@ -287,6 +311,18 @@ tbody tr:nth-child(5) {
   opacity: 0;
   animation: Show 0.8s 0.3s linear 1 forwards;
   animation-delay: 2s;
+}
+tbody tr:nth-child(6) {
+  transform: translateX(-110%);
+  opacity: 0;
+  animation: Show 0.8s 0.3s linear 1 forwards;
+  animation-delay: 2.3s;
+}
+tbody tr:nth-child(7) {
+  transform: translateX(-110%);
+  opacity: 0;
+  animation: Show 0.8s 0.3s linear 1 forwards;
+  animation-delay: 2.6s;
 }
 @keyframes Show {
   to {
