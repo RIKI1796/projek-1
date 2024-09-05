@@ -249,10 +249,13 @@ input {
   font-size: 15px;
 }
 .solo {
-    width= 150px;
+    width: 150px;
 }
 .oshi {
-    width= 150px;
+    width: 150px;
+}
+.sl {
+    font-size: 20px;
 }
 }
 @media only screen and (min-width: 1200px) {
