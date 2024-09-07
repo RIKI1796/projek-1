@@ -74,7 +74,7 @@ h3 {
 img {
   width: 20%;
   margin-top: 10%;
-  justify-content: center;
+  transform: translateX(100%);
   box-shadow: 2px 2px #0000006c;
 }
 }
