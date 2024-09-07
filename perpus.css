@@ -71,4 +71,10 @@ h3 {
   -webkit-text-stroke: 0.2px white;
   margin-top: 2%;
 }
+img {
+  width: 20%;
+  margin-top: 10%;
+  transform: translateX(73%);
+  box-shadow: 2px 2px #0000006c;
+}
 }
