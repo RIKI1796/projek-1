@@ -57,4 +57,18 @@ h2.none {
         margin-left: 400%;
         margin-top: 3%;
     }
+    .buku h2 {
+  text-align: center;
+  font-family: Patrick Hand;
+  font-size: 300%;
+  margin-top: 1%;
+  -webkit-text-stroke: 0.2px white;
+}
+h3 {
+  text-align: center;
+  font-family: Asap Condensed;
+  font-size: 160%;
+  -webkit-text-stroke: 0.2px white;
+  margin-top: 2%;
+}
 }
