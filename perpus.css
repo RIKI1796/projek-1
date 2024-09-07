@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(gambar/Bg.jpg);
+    backdrop-filter: blur(4px);
+}
+nav {
+    display: flex;
+    background-color: #84848481;
+}
+input {
+    ba0ckground-color: #dbdbdb;
+    -webkit-text-fill-color: #777777;
+    font-size: 90%;
+    margin-left: 70%;
+    margin-top: 4%;
+    border-radius: 6px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+img {
+  width: 40%;
+  margin-top: 10%;
+  transform: translateX(73%);
+  box-shadow: 2px 2px #0000006c;
+}
+.perpus {
+    font-family: Asap Condensed;
+    font-size: 170%;
+    margin-left: 1%;
+    background-image: linear-gradient(to bottom, rgb(156, 156, 156), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.6px;
+  }
+.buku h2 {
+  text-align: center;
+  font-family: Patrick Hand;
+  font-size: 200%;
+  margin-top: 1%;
+  -webkit-text-stroke: 0.2px white;
+}
+h3 {
+  text-align: center;
+  font-family: Asap Condensed;
+  font-size: 110%;
+  -webkit-text-stroke: 0.2px white;
+  margin-top: 2%;
+}
+h2.none {
+  display: none;
+}
