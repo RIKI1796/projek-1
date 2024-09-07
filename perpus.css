@@ -52,3 +52,8 @@ h3 {
 h2.none {
   display: none;
 }
+@media only screen and (min-width: 1200px) {
+    input {
+        margin-left: 300%;
+    }
+}
