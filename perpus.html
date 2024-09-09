@@ -64,7 +64,7 @@
             function () {
               const filter = search.value.toLowerCase();
               Array.from(judul).forEach(function(item) {
-                const text = buku.textContent.toLowerCase();
+                const text = item.textContent.toLowerCase();
                 if (text.includes(filter)) {
                   buku.classList.remove("none");
                 } else {
