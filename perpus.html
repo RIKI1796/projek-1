@@ -56,7 +56,20 @@
       </div>
     </div>
     <script>
-      
+          const search = document.getElementById("pencarian");
+          const buku = document.getElementById("book");
+          const judul = buku.getElementsByTagName("h2");
+
+        search.addEventListener('input',
+            function () {
+              const filter = search.value.toLowerCase();
+              Array.from(items).forEach(function(item) {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(filter)) {
+                  item.style.display = "";
+                } else {
+                  item.style.display = "none";
+                }
     </script>
   </body>
 </html>
