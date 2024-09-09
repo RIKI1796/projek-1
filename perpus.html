@@ -63,12 +63,12 @@
         search.addEventListener('input',
             function () {
               const filter = search.value.toLowerCase();
-              Array.from(buku).forEach(function(item) {
-                const text = item.textContent.toLowerCase();
+              Array.from(buku).forEach(function(book) {
+                const text = book.textContent.toLowerCase();
                 if (text.includes(filter)) {
-                  buku.classList.remove("none");
+                  book.classList.remove("none");
                 } else {
-                  buku.classList.add("none");
+                  book.classList.add("none");
                 }
               });
             });
