@@ -66,7 +66,7 @@
               Array.from(judul).forEach(function(item) {
                 const text = item.textContent.toLowerCase();
                 if (text.includes(filter)) {
-                  book.classList.remove("none");
+                 item.classList.remove("none");
                 } else {
                   item.classList.add("none");
                 }
