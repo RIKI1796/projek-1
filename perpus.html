@@ -66,9 +66,9 @@
               Array.from(judul).forEach(function(item) {
                 const text = item.textContent.toLowerCase();
                 if (text.includes(filter)) {
-                  buku.classList.remove("none");
+                  item.classList.remove("none");
                 } else {
-                  buku.classList.add("none");
+                  item.classList.add("none");
                 }
               });
             });
