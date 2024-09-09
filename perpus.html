@@ -57,18 +57,18 @@
     </div>
     <script>
           const search = document.getElementById("pencarian");
-          const buku = document.getElementById("buku");
+          const buku = document.getElementById("books");
           const judul = buku.getElementsByTagName("h2");
 
         search.addEventListener('input',
             function () {
               const filter = search.value.toLowerCase();
-              Array.from(judul).forEach(function(book) {
-                const text = book.textContent.toLowerCase();
+              Array.from(judul).forEach(function(item) {
+                const text = item.textContent.toLowerCase();
                 if (text.includes(filter)) {
                   book.classList.remove("none");
                 } else {
-                  book.classList.add("none");
+                  item.classList.add("none");
                 }
               });
             });
