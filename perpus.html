@@ -63,7 +63,7 @@
         search.addEventListener('input',
             function () {
               const filter = search.value.toLowerCase();
-              Array.from(buku).forEach(function(book) {
+              Array.from(judul).forEach(function(book) {
                 const text = book.textContent.toLowerCase();
                 if (text.includes(filter)) {
                   book.classList.remove("none");
