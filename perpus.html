@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Stencil+Display:wght@100..900&family=Black+Ops+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <nav>
@@ -20,33 +21,37 @@
         <input id="pencarian" type="text" >
       </ul>
     </nav>
+    <div id="icon" class="list">
+     <i class="ph ph-list"></i>
+   </div>
+    
     <div id="books" class="buku">
-      <div id="book" class="book1" boook>
+      <div id="book" class="book1">
         <img src="gambar/senja.jpeg" alt="" class="senja" />
         <h2 class="snj">Senja</h2>
         <h3 class="cahaya">Cahaya Dewi</h3>
       </div>
-      <div id="book" class="book2" boook>
+      <div id="book" class="book2">
         <img src="gambar/jjk.jpg" alt="" class="jujutsu" />
         <h2 class="jjk">Jujutsu Kaisen</h2>
         <h3 class="gege">Gege Akutami</h3>
       </div>
-      <div id="book" class="book3" boook>
+      <div id="book" class="book3">
         <img src="gambar/dilan.jpeg" alt="" class="dilan" />
         <h2 class="dln">Dilan 1990</h2>
         <h3 class="pidi">Pidi Baiq</h3>
       </div>
-      <div id="book" class="book4" boook>
+      <div id="book" class="book4">
         <img src="gambar/Wind.jpeg" alt="" class="wind" />
         <h2 class="wb">Wind Breaker</h2>
         <h3 class="yj">Yongseok Jo</h3>
       </div>
-      <div id="book" class="book5" boook>
+      <div id="book" class="book5">
         <img src="gambar/angkasa.jpeg" alt="" class="angkasa" />
         <h2 class="agks">Angkasa Dan 56 Hari</h2>
         <h3 class="des">Destashya WDP</h3>
       </div>
-      <div id="book" class="book6" boook>
+      <div id="book" class="book6">
         <img
           class="naruto"
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5dIg_m2URo4xV9Nzyu-JiEGiFKqBNT_OSweFxyIBskf4rDTfTX166-TFK_MO6TINeofkrd9JleAouAhqqC8ZRn_m3nCEBtUgfNQtg7XxJC0-FpkDxdF0UhHMs_BMaNKMWenRBtF4fRVj0/s1600/Volume01Cover.jpg"
@@ -58,7 +63,7 @@
     </div>
     <script>
           const search = document.getElementById("pencarian");
-          const buku = document.querySelectorAll("div");
+          const buku = document.querySelectorAll(".buku div");
 
         search.addEventListener('input',
             function () {
