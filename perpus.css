@@ -3,7 +3,6 @@
     padding: 0;
 }
 body {
-    backdrop-filter: blur(4px);
     background-image: url(gambar/Bg.jpg);
 }
 nav {
