@@ -10,7 +10,7 @@ nav {
     background-color: #84848481;
 }
 input {
-    ba0ckground-color: #dbdbdb;
+    background-color: #dbdbdb;
     -webkit-text-fill-color: #777777;
     font-size: 90%;
     margin-left: 70%;
@@ -32,7 +32,7 @@ img {
     background-image: linear-gradient(to bottom, rgb(156, 156, 156), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.6px;
+    -webkit-text-stroke: black 0.6px;
   }
 .buku h2 {
   text-align: center;
