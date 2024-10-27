@@ -57,7 +57,7 @@ h3 {
 }
 @media only screen and (min-width: 1200px) {
     input {
-        margin-left: 800%;
+        margin-left: 400px;
         margin-top: 3%;
     }
     .buku h2 {
